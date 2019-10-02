@@ -9,7 +9,7 @@ const GithubCard = (props) => {
   return (
     <div>
       <Card>
-        <CardImg top width="100px" src={props.github.avatar_url} alt="Card image cap" />
+        <CardImg top width="200px" src={props.github.avatar_url} alt="Card image cap" />
         <CardBody>
           <CardTitle>Login: {props.github.login} </CardTitle>
           <CardSubtitle>Name: {props.github.name}</CardSubtitle>
